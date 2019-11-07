@@ -3,14 +3,14 @@ human-cron
 
 Bash script presents crontab in human readable form.
 
-Script uses `crontab` commad avaliable in Ubuntu / Debian and similar Linux distributions 
+Script uses `crontab` command avaliable in Ubuntu / Debian and similar Linux distributions 
 
 Sample use:
 ./human-cron.sh [user]
 
 Sample output:
--+ komenda /usr/sbin/quotacheck -avug zostanie wykonana codziennie o godzinie 3:00
+-+ command /usr/sbin/quotacheck -avug will be done every day at 3:00
 
-Outpu commands only in polish language.
+Output commands only in English.
 
-Version 1.0
+Version 1.2
